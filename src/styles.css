@@ -1,1 +1,31 @@
-/* You can add global styles to this file, and also import other style files */
+/* styles.css o variables globales */
+
+:root {
+  /* Paleta Charizard X (azul, negro, tonos para tech & elegancia) */
+  --color-primary: #0038a8;     /* Azul intenso */
+  --color-secondary: #000000;   /* Negro */
+  --color-accent: #ff7f27;      /* Naranja brillante para acentos */
+  --color-background: #0a0a0a;  /* Fondo oscuro */
+  --color-text: #e6e6e6;        /* Texto claro */
+
+  /* Tipografía */
+  --font-family-primary: 'Montserrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  /* Tamaños de fuente */
+  --font-size-base: 16px;
+  --font-size-sm: 0.875rem;   /* 14px aprox */
+  --font-size-md: 1rem;       /* 16px */
+  --font-size-lg: 1.25rem;    /* 20px */
+  --font-size-xl: 1.5rem;     /* 24px */
+  --font-size-xxl: 2rem;      /* 32px */
+}
+
+/* Aplicar base en body */
+body {
+  font-family: var(--font-family-primary);
+  font-size: var(--font-size-base);
+  color: var(--color-text);
+  background-color: var(--color-background);
+  margin: 0;
+  padding: 0;
+}/* You can add global styles to this file, and also import other style files */
