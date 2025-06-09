@@ -4,11 +4,13 @@ import { BrowserModule, provideClientHydration, withEventReplay } from '@angular
 import { AppRoutingModule } from './app-routing-module';
 import { App } from './app';
 import { HeroSelection } from './components/hero-selection/hero-selection';
+import { Navbar } from './components/navbar/navbar';
 
 @NgModule({
   declarations: [
     App,
-    HeroSelection
+    HeroSelection,
+    Navbar
   ],
   imports: [
     BrowserModule,
