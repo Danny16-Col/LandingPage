@@ -5,7 +5,8 @@
   --color-primary: #0038a8;     /* Azul intenso */
   --color-secondary: #000000;   /* Negro */
   --color-accent: #ff7f27;      /* Naranja brillante para acentos */
-  --color-background: #0a0a0a;  /* Fondo oscuro */
+  --color-background: #0a0a0a; /* fondo oscuro*/
+  --color-background: #e6e6e6; /* fondo claro*/
   --color-text: #e6e6e6;        /* Texto claro */
 
   /* Tipografía */
