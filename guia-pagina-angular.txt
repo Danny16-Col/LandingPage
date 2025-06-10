@@ -1,0 +1,95 @@
+# Pasos para crear una nueva página y navegar desde un botón en Angular
+
+## 1. Crear el componente de la nueva página
+Abre la terminal y ejecuta:
+```
+ng generate component components/oferta
+```
+Esto crea la carpeta y archivos para el componente `Oferta`.
+
+---
+
+## 2. Agregar la ruta en el archivo de rutas
+Edita `src/app/app-routing-module.ts`:
+```typescript
+import { NgModule } from '@angular/core';
+import { RouterModule, Routes } from '@angular/router';
+import { Oferta } from './components/oferta/oferta';
+import { Home } from './components/home/home';
+
+const routes: Routes = [
+  { path: '', component: Home },
+  { path: 'oferta', component: Oferta }
+];
+
+@NgModule({
+  imports: [RouterModule.forRoot(routes)],
+  exports: [RouterModule]
+})
+export class AppRoutingModule { }
+```
+
+---
+
+## 3. Crear un componente Home para la página principal
+Crea los archivos `home.ts`, `home.html` y `home.css` en `src/app/components/home/` y agrega el contenido principal de tu landing en `home.html`:
+```html
+<main class="main">
+    <app-navbar></app-navbar>
+    <app-hero-selection></app-hero-selection>
+    <app-body-c></app-body-c>
+    <app-body-d></app-body-d>
+    <app-ayuda></app-ayuda>
+</main>
+```
+
+---
+
+## 4. Declarar los componentes en el módulo principal
+Edita `src/app/app-module.ts` y asegúrate de importar y declarar todos los componentes:
+```typescript
+import { Home } from './components/home/home';
+import { Oferta } from './components/oferta/oferta';
+// ...otros imports...
+
+@NgModule({
+  declarations: [
+    App,
+    HeroSelection,
+    Navbar,
+    BodyD,
+    BodyC,
+    Ayuda,
+    Oferta,
+    Home
+  ],
+  // ...existing code...
+})
+export class AppModule { }
+```
+
+---
+
+## 5. Dejar solo el router outlet en app.html
+Edita `src/app/app.html` para que solo tenga:
+```html
+<router-outlet></router-outlet>
+```
+
+---
+
+## 6. Hacer que el botón navegue a la nueva página
+En el archivo donde tienes el botón (por ejemplo, `hero-selection.html`), usa:
+```html
+<button [routerLink]="['/oferta']">Obten esta oferta</button>
+```
+
+---
+
+## 7. Probar la navegación
+- Inicia la app con `ng serve`.
+- Al hacer clic en el botón, deberías navegar a la página `/oferta`.
+
+---
+
+**Puedes eliminar este archivo cuando ya no lo necesites.**
