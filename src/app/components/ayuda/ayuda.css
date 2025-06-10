@@ -35,8 +35,10 @@
     font-size: var(--font-size-md);
     color: var(--color-text);
     margin: 15px;
+    cursor: pointer;
     
 }
 .ayuda__below img{
     height: 50px;
+    cursor: pointer;
 }
