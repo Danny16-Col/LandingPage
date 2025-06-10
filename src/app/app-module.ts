@@ -8,15 +8,17 @@ import { Navbar } from './components/navbar/navbar';
 import { BodyD } from './components/body-d/body-d';
 import { BodyC } from './components/body-c/body-c';
 import { Ayuda } from './components/ayuda/ayuda';
+import { Footer } from './components/footer/footer';
 
 @NgModule({
   declarations: [
     App,
     HeroSelection,
     Navbar,
-    BodyD
+    BodyD,
     BodyC,
-    Ayuda
+    Ayuda,
+    Footer
   ],
   imports: [
     BrowserModule,

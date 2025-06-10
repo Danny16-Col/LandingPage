@@ -9,6 +9,7 @@
   --color-background-white: #e6e6e6; /* fondo claro*/
   --color-text: #ffffff; 
   --color-text-black: rgb(0, 0, 0);
+  --color-gris: #434a57;
          /* Texto claro */
 
   /* Tipografía */
@@ -31,3 +32,4 @@ body {
   margin: 0;
   padding: 0;
 }/* You can add global styles to this file, and also import other style files */
+
