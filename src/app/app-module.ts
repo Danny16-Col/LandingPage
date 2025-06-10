@@ -8,6 +8,7 @@ import { Navbar } from './components/navbar/navbar';
 import { BodyD } from './components/body-d/body-d';
 import { BodyC } from './components/body-c/body-c';
 import { Ayuda } from './components/ayuda/ayuda';
+import { Footer } from './components/footer/footer';
 import { Oferta } from './components/oferta/oferta';
 import { Home } from './components/home/home';
 
@@ -19,6 +20,7 @@ import { Home } from './components/home/home';
     BodyD,
     BodyC,
     Ayuda,
+    Footer,
     Oferta,
     Home
   ],
