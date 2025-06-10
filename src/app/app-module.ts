@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing-module';
 import { App } from './app';
 import { HeroSelection } from './components/hero-selection/hero-selection';
 import { Navbar } from './components/navbar/navbar';
+import { BodyD } from './components/body-d/body-d';
 import { BodyC } from './components/body-c/body-c';
 import { Ayuda } from './components/ayuda/ayuda';
 
@@ -13,6 +14,7 @@ import { Ayuda } from './components/ayuda/ayuda';
     App,
     HeroSelection,
     Navbar,
+    BodyD
     BodyC,
     Ayuda
   ],
