@@ -1,0 +1,127 @@
+.bodyd-Container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-text);
+}
+
+h1{
+    font-size: 2.2rem;
+    color: var(--color-secondary);
+    margin-bottom: 1rem;
+}
+
+h3{
+    font-size: 1.5rem;
+    color: var(--color-secondary);
+    margin-bottom: 0.5rem;
+}
+
+p{
+    font-size: 1.1rem;
+    color: var(--color-secondary);
+    margin-bottom: 0.5rem;
+}
+
+.bodyd-Container_Header{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 300px 10px 300px;
+    text-align: center;
+}
+
+
+.bodyd-Container_Ballena{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 200px;
+    margin-top: -130px;
+}
+
+.bodyd-Container_Ballena img{
+    width: 210px;
+    height: auto;
+    margin-top: -10px;
+}
+
+.bodyd-Container_Ballena_Text{
+    margin-left: 250px;
+    margin-top: -40px;
+}
+
+.bodyd-Container_Luna{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 200px;
+    margin-top: -300px;
+}
+
+.bodyd-Container_Luna img{
+    width: 210px;
+    height: auto;
+}
+
+.bodyd-Container_Luna_Text{
+    margin-left: 250px;
+    margin-top: -40px;
+}
+
+.bodyd-Container_Niga{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 200px;
+    margin-top: -220px;
+}
+
+.bodyd-Container_Niga img{
+    width: 210px;
+    height: auto;
+}
+
+.bodyd-Container_Niga_Text{
+    margin-left: 250px;
+    margin-top: -40px;
+}
+
+.bodyd-Container__Buttons-descargas{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: -100px;
+    background-color: var(--color-text);
+    border: none;
+}
+
+
+.bodyd-Container__Button__appst{
+    background-color: var(--color-text);
+    border: none;
+    cursor: pointer;
+}
+
+.bodyd-Container__Button__goo{
+    background-color: var(--color-text);
+    border: none;
+    cursor: pointer;
+}
+
+.bodyd-Container__Button__prueba{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    background-color: var(--color-primary);
+    color: var(--color-text);
+    border: none;
+    padding: 13px 23px;
+    border-radius: 45px;
+    cursor: pointer;
+    font-size: 16px;
+}

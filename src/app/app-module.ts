@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing-module';
 import { App } from './app';
 import { HeroSelection } from './components/hero-selection/hero-selection';
 import { Navbar } from './components/navbar/navbar';
+import { BodyD } from './components/body-d/body-d';
 
 @NgModule({
   declarations: [
     App,
     HeroSelection,
-    Navbar
+    Navbar,
+    BodyD
   ],
   imports: [
     BrowserModule,
