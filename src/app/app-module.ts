@@ -5,12 +5,16 @@ import { AppRoutingModule } from './app-routing-module';
 import { App } from './app';
 import { HeroSelection } from './components/hero-selection/hero-selection';
 import { Navbar } from './components/navbar/navbar';
+import { BodyC } from './components/body-c/body-c';
+import { Ayuda } from './components/ayuda/ayuda';
 
 @NgModule({
   declarations: [
     App,
     HeroSelection,
-    Navbar
+    Navbar,
+    BodyC,
+    Ayuda
   ],
   imports: [
     BrowserModule,

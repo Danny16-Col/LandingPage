@@ -6,8 +6,10 @@
   --color-secondary: #000000;   /* Negro */
   --color-accent: #ff7f27;      /* Naranja brillante para acentos */
   --color-background: #0a0a0a; /* fondo oscuro*/
-  --color-background: #e6e6e6; /* fondo claro*/
-  --color-text: #e6e6e6;        /* Texto claro */
+  --color-background-white: #e6e6e6; /* fondo claro*/
+  --color-text: #ffffff; 
+  --color-text-black: rgb(0, 0, 0);
+         /* Texto claro */
 
   /* Tipografía */
   --font-family-primary: 'Montserrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -25,8 +27,7 @@
 body {
   font-family: var(--font-family-primary);
   font-size: var(--font-size-base);
-  color: var(--color-text);
-  background-color: var(--color-background);
+  background-color: var(--color-background-white);
   margin: 0;
   padding: 0;
 }/* You can add global styles to this file, and also import other style files */

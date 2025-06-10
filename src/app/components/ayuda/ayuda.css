@@ -1,0 +1,42 @@
+.ayuda__container{
+    display: flex;
+    flex-direction: column;
+
+    
+
+}
+.ayuda__top{
+    background-color: var(--color-accent);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    color: var(--color-text);
+    padding: 40px;
+}
+.ayuda__container a {
+    color: var(--color-text);
+    text-decoration: underline; /* Opcional, para mantener el subrayado */
+}
+.ayuda__below {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 30px;
+
+}
+.ayuda__below h3{
+    font-size: var(--font-size-md);
+    color: var(--color-secondary);
+    margin: 15px;
+
+}
+.ayuda__below h4{
+    font-size: var(--font-size-md);
+    color: var(--color-text);
+    margin: 15px;
+    
+}
+.ayuda__below img{
+    height: 50px;
+}
