@@ -11,6 +11,7 @@ import { Ayuda } from './components/ayuda/ayuda';
 import { Footer } from './components/footer/footer';
 import { Oferta } from './components/oferta/oferta';
 import { Home } from './components/home/home';
+import { Gratuita } from './components/gratuita/gratuita';
 import { FooterAlt } from './components/footer-alt/footer-alt';
 
 @NgModule({
@@ -24,6 +25,7 @@ import { FooterAlt } from './components/footer-alt/footer-alt';
     Footer,
     Oferta,
     Home,
+    Gratuita
     FooterAlt
   ],
   imports: [
