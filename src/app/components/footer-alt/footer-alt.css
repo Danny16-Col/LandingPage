@@ -1,0 +1,21 @@
+.footer-alt_container{
+    background-color: var(--color-gris);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    color: var(--color-background-white);
+    padding: 15px;
+    margin: 0;
+}
+.footer-alt__left{
+    display: flex;
+    flex-direction: row;
+    margin: 0 550px 0 0;
+    gap: 5px;
+    
+}
+.footer-alt__left p{
+    font-size: var(--font-size-sm);
+}
+
+

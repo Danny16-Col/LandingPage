@@ -12,6 +12,7 @@ import { Footer } from './components/footer/footer';
 import { Oferta } from './components/oferta/oferta';
 import { Home } from './components/home/home';
 import { Gratuita } from './components/gratuita/gratuita';
+import { FooterAlt } from './components/footer-alt/footer-alt';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { Gratuita } from './components/gratuita/gratuita';
     Oferta,
     Home,
     Gratuita
+    FooterAlt
   ],
   imports: [
     BrowserModule,

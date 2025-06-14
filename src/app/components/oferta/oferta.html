@@ -1,1 +1,91 @@
-<p>oferta works!</p>
+<div class="oferta__body">
+    <a class="logo" routerLink="/">
+        <nav>
+            <a class="logo" routerLink="/"><img src="assets/logo.svg" alt="logo" width="15%"></a>
+        </nav>
+    </a>
+    <div class="oferta__container">
+        <div class="oferta__left">
+            <h2>Get the full Headspace experience for <span class="oferta__price">0 US$ hoy</span></h2>
+            <button>annual</button>
+            <div class="oferta-left__price">
+                <p class="oferta-left-price__blue">Best Value</p>
+                <div class="oferta-left__price-below">
+                    <div class="oferta-left-price__left">
+                        <h3>Annual</h3>
+                        <h4>69,99 US$/year</h4>
+                    </div>
+                    <div class="oferta-left-price__right">
+                        <h3 class="oferta__price">0,00 US$</h3>
+                        <h4 class="oferta__price">for 14 days</h4>
+                    </div>
+                </div>
+            </div>
+            <h3>How your free trial works</h3>
+            <h4>Try 14 days free, then 5,83 US$/month. Auto-renews annually, cancel anytime.</h4>
+            <div class="oferta-left__tip">
+                <div class="oferta-left-tip__left">
+                    <img src="assets/candado.svg" alt="logo_orange">
+                    <img src="assets/campana.svg" alt="logo_orange">
+                    <img src="assets/estrella.svg" alt="logo_orange">
+                </div>
+                <div class="oferta-left-tip__right">
+                    <h3>Today</h3>
+                    <h4>Pay $0 today and unlock our library of meditations, sleep sounds, and more.</h4>
+                    <br>
+                    <h3>In 12 days</h3>
+                    <h4>We’ll send you an email reminder that your trial is ending soon.</h4>
+                    <br>
+                    <h3>In 14 days</h3>
+                    <h4>You’ll be charged 69,99 US$, or cancel anytime before.</h4>
+                </div>
+            </div>
+            <div class="oferta-left__bellow">
+                <h3>What’s included</h3>
+                <ul>
+                    <li>Access our entire library of meditations, sleep sounds, yoga and fitness, and focus music</li>
+                    <li>Get a new meditation delivered to your phone every day</li>
+                    <li>Daily inspirational videos to start the day off right</li>
+                </ul>
+            </div>
+        </div>
+        <div class="oferta__right">
+            <h1>Regitrarse</h1>
+            <h3>¿Ya tienes una cuenta? <a class="registrarse">Iniciar sesión</a></h3>
+            <form class="regis" action="tabla">
+                <label for="t1"></label>
+                <input type="text" id="t1" placeholder="Nombre*">
+                <label for="t2"></label>
+                <input type="text" id="t2" placeholder="Apellido*">
+                <label for="t3"></label>
+                <input type="text" id="t3" placeholder="Direccion de correo electronico*">
+                <label for="t4"></label>
+                <input type="text" id="t4" placeholder="Contraseña*">
+            </form>
+            <h2>¿Te gustaría estar al tanto de las últimas novedades?</h2>
+            <p>Suscríbete a nuestra lista de correos y entérate primero de nuestras ofertas especiales.
+            </p>
+            <form class="option">
+                <input type="radio" id="r1">
+                <label for="r1">Si</label>
+                <input type="radio" id="t2">
+                <label for="r2">No</label>
+            </form>
+            <form class="terminos">
+                <input type="radio" id="r3">
+                <label for="r3">
+                    Acepto los <a class="terminos__link" href="https://www.headspace.com/terms-and-conditions">Términos
+                        y condiciones</a> de Headspace y estoy de acuerdo con su <a class="terminos__link"
+                        href="https://www.headspace.com/es/privacy-policy">Política de
+                        privacidad.</a></label>
+            </form>
+            <button>Registrarse</button>
+            <div class="container__logos">
+                <img class="google" src="/assets/lg google.png" alt="logo google">
+                <img class="apple" src="/assets/lg apple.png" alt="logo apple">
+                <img class="facebook" src="/assets/lg facebook.png" alt="logo facebook">
+            </div>
+        </div>
+    </div>
+    <app-footer-alt></app-footer-alt>
+</div>
