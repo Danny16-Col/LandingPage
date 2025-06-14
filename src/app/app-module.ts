@@ -11,6 +11,7 @@ import { Ayuda } from './components/ayuda/ayuda';
 import { Footer } from './components/footer/footer';
 import { Oferta } from './components/oferta/oferta';
 import { Home } from './components/home/home';
+import { Gratuita } from './components/gratuita/gratuita';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { Home } from './components/home/home';
     Ayuda,
     Footer,
     Oferta,
-    Home
+    Home,
+    Gratuita
   ],
   imports: [
     BrowserModule,

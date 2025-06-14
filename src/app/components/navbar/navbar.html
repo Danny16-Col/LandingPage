@@ -1,7 +1,9 @@
 <nav class="navbar">
     <!--Logo-->
     <div class="navbar-Logo">
-        <img src="assets/logo.svg" alt="logo">
+        <a href="#">
+            <img src="assets/logo.svg" alt="logo">
+        </a>
     </div>
     <!--Nabvar links-->
     <div class="navbar-Links">
@@ -12,7 +14,7 @@
         <div class="barra"></div>
         <a class="inicioSesion" href="#"><b>Iniciar sesión</b></a>
         <div class="navbar-Buttons">
-            <button class="navbar-Button">Empieza tu prueba gratuita</button>
+            <button [routerLink]="['/gratuita']" class="navbar-Button">Empieza tu prueba gratuita</button>
         </div>
     </div>
 </nav>

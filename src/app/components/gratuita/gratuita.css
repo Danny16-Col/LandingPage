@@ -1,0 +1,118 @@
+.head-Container__Logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: var(--color-text);
+}
+
+.head-Container__Logo img {
+    display: flex;
+    align-items: right;
+    width: 250px;
+    height: 50px;
+}
+
+.head-Container__content {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    background-color: var(--color-text);
+}
+
+.head-Container__content__Img {
+    width: 120%;
+    height: auto;
+    margin-left: -110px;
+    object-fit: cover;
+    transition: width 0.3s ease;
+
+}
+
+.head-Container__content-Text {
+    position: absolute;
+    top: 26%;
+    left: 5%;
+    transform: translateY(-50%);
+    text-align: left;
+    color: var(--color-gris);
+    font-family: 'Circular Std', 'Helvetica Neue', 'Arial', sans-serif;
+    padding: 2rem;
+    max-width: 500px;
+}
+
+.head-Container__content h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.head-Container__content p {
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.head-Container__content-Text__Button {
+    position: absolute;
+    top: 115%;
+    left: -13%;
+    margin-left: 100px;
+    z-index: 2;
+}
+
+.head-Container__content-Text__Button a {
+    background: var(--color-azulclaro);
+    color: var(--color-text);
+    padding: 20px 35px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    cursor: pointer
+}
+
+.body-Container{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--color-text);
+    gap: 20%;
+}
+
+.body-Container__Subs-content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left:35%;
+    margin-top: 90px;
+}
+
+.bi{
+    color: var(--color-accent);
+    font-size: var(--font-size-xl);
+}
+
+.body-Container-Subs__box{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--color-gris);
+    border-radius: 20px;
+    width: 36%;
+    margin-left: 76px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.body-Container-Subs__box-title span{
+    display: block;
+    width: 95.5%;
+    background-color: var(--color-secondary);
+    color: var(--color-text);
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px 20px 0 0;
+}
+
+.body-Container-Subs__box-title span{
+    
+}
