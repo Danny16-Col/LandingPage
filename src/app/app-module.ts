@@ -9,10 +9,11 @@ import { BodyD } from './components/body-d/body-d';
 import { BodyC } from './components/body-c/body-c';
 import { Ayuda } from './components/ayuda/ayuda';
 import { Footer } from './components/footer/footer';
-import { Oferta } from './components/oferta/oferta';
-import { Home } from './components/home/home';
-import { Gratuita } from './components/gratuita/gratuita';
+import { Oferta } from './pages/oferta/oferta';
+import { Home } from './pages/home/home';
+import { Gratuita } from './pages/gratuita/gratuita';
 import { FooterAlt } from './components/footer-alt/footer-alt';
+import { Pages } from './pages/pages';
 
 @NgModule({
   declarations: [
@@ -25,8 +26,9 @@ import { FooterAlt } from './components/footer-alt/footer-alt';
     Footer,
     Oferta,
     Home,
-    Gratuita
-    FooterAlt
+    Gratuita,
+    FooterAlt,
+    Pages
   ],
   imports: [
     BrowserModule,
