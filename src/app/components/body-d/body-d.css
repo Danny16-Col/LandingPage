@@ -125,3 +125,16 @@ p{
     cursor: pointer;
     font-size: 16px;
 }
+.ayuda__top{
+    background-color: var(--color-accent);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    color: var(--color-text);
+    padding: 40px;
+}
+.ayuda__top a {
+    color: var(--color-text);
+    text-decoration: underline; /* Opcional, para mantener el subrayado */
+}
